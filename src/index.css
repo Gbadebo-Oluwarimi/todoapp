@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.toggle{
+  position:fixed;
+  width:100%;
+  height: 100%;
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3px );
+-webkit-backdrop-filter: blur( 6.5px );
+}
+.content{
+  position:relative;
+  top:25%;
+  left:35%;
+  background-color: #e6e6e6;
+  width:400px;
+  height:300px;
+  border-radius:5px;
+}
+.content2{
+  padding:5px 5px
+}
+.content3{
+  display: flex;
+  justify-content: space-between;
+}
